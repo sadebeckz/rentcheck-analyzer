@@ -6,7 +6,7 @@ import pickle
 # ----------------------------
 # 🔹 Load trained model
 # ----------------------------
-with open("model.pkl_2", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 model_columns = [
